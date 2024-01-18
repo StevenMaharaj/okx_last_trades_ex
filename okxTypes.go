@@ -14,6 +14,7 @@ type OkxSubReqArg struct {
 type Trade struct {
   price float64
   volume float64
+  side string
 }
 
 type OkxSubResp struct {

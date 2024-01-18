@@ -109,6 +109,7 @@ func (s *OkxStream) Stream() {
       s.ch <- Trade{
         price: price,
         volume: volume,
+        side: trade.Side,
       }
     }
 
